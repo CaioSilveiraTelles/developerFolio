@@ -27,44 +27,21 @@ export default function StartupProject() {
           >
             {bigProjects.subtitle}
           </p>
-
-          <div className="projects-container">
+          <div className="startup-projects-main">
+            <div className="startup-project-text">
               {bigProjects.projects.map((project,i) => {
                 return (
-                  <div key={i} className={isDark ? "dark-mode project-card project-card-dark" : "project-card project-card-light"}>
-                  {
-                    project.image ?
-                    <div className="project-image">
-                      <img src={project.image} alt={project.projectName} className="card-image"></img>
-                    </div> : null
-                  }
-                  <div className="project-detail">
-                    <h5 className={isDark ? "dark-mode card-title" : "card-title"}>
-                      {project.projectName}
-                    </h5>
-                    <p className={isDark ? "dark-mode card-subtitle" : "card-subtitle"}>
-                      {project.projectDesc}
-                    </p>
-                    {
-                      project.footerLink ?
-                      <div className="project-card-footer">
-                        {project.footerLink.map((link, i) => {
-                          return (
-                            <span
-                              key={i}
-                              className={isDark ? "dark-mode project-tag" : "project-tag"}
-                              onClick={() => openProjectInNewWindow(link.url)}
-                            >
-                              {link.name}
-                            </span>
-                          );
-                        })}
-                      </div> : null
-                    }
+                  <div
+                    key={i}
+                    className="saaya-health-div"
+                    onClick={() => openProjectInNewWindow(project.link)}
+                  >
+                    <img alt="Saad Working" src={project.image}></img>
                   </div>
-                </div>
                 );
               })}
+            </div>
+            <div className="startup-project-image"></div>
           </div>
         </div>
       </div>

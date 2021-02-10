@@ -4,9 +4,6 @@
   box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
   padding: 2rem;
   cursor: pointer;
-  -webkit-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
 }
 .repo-card-div:hover {
   box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
@@ -61,7 +58,6 @@
   letter-spacing: -0.5px;
   overflow: hidden;
   margin: 0px;
-  height: 30px;
 }
 
 .repo-star-svg {
@@ -84,5 +80,4 @@
 }
 .dark-card-mode:hover {
   background-color: #55198b !important;
-  box-shadow: 0px 0px 16px #d9dbdf;
 }

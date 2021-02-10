@@ -9,26 +9,25 @@ const illustration = {
 };
 
 const greeting = {
-  username: 'Saad Pasta',
-  title: "Hi all, I'm Saad",
+  username: 'Caio Silveira Telles',
+  title: "Bem vindo",
   subTitle: emoji(
-    'A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks.'
+    'Meu nome é Caio Silveira Telles  🚀, tenho 19 anos Atualmente curso Ciências da Computação na Univem Tenho experiência em Desenvolvimento Web com JavaScript / Reactjs / Nodejs / React Native / Laravel,Além de programar em ADVPL(advanced Protheus language).'
   ),
   resumeLink:
-    'https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing',
+    'https://drive.google.com/file/d/1DlyVNlEvxiNcVug-JOvIiYQH4iCLFZxp/view?usp=sharing',
   displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: 'https://github.com/saadpasta',
-  linkedin: 'https://www.linkedin.com/in/saadpasta/',
-  gmail: 'saadpasta70@gmail.com',
-  gitlab: 'https://gitlab.com/saadpasta',
-  facebook: 'https://www.facebook.com/saad.pasta7',
-  medium: 'https://medium.com/@saadpasta',
-  stackoverflow: 'https://stackoverflow.com/users/10422806/saad-pasta',
+  github: 'https://github.com/CaioSilveiraTelles',
+  linkedin: 'https://www.linkedin.com/in/caio-silveira-telles-9750301a3/',
+  gmail: 'caiosilveiratelles@gmail.com',
+  instagram: 'https://www.instagram.com/caiosilveira___/?hl=pt-br',
+  facebook: 'https://www.facebook.com/caio.silveiratelles/',
+  twitter: 'https://twitter.com/silveira_telles',
   // Instagram and Twitter are also supported in the links!
   display: true, // Set true to display this section, defaults to false
 };
@@ -36,15 +35,15 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: 'What I do',
-  subTitle: 'CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK',
+  title: 'Ferramentas',
+  subTitle: 'System Analist|Full Stack Developer | ',
   skills: [
     emoji(
-      '⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications'
+      '⚡ Desenvolvo interfaces de usuário / front-end altamente interativas para  aplicativos web e móveis.'
     ),
-    emoji('⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks'),
+    emoji('⚡ Desenvolvimento de Aplicações desktop.'),
     emoji(
-      '⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean'
+      '⚡ Integração de outros Sistemas por meio de API/SOAP.'
     ),
   ],
 
@@ -61,40 +60,23 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: 'fab fa-css3-alt',
     },
     {
-      skillName: 'sass',
-      fontAwesomeClassname: 'fab fa-sass',
+      skillName: 'PHP',
+      fontAwesomeClassname: 'fab fa-php',
     },
     {
       skillName: 'JavaScript',
       fontAwesomeClassname: 'fab fa-js',
     },
-    {
-      skillName: 'reactjs',
-      fontAwesomeClassname: 'fab fa-react',
-    },
+    
     {
       skillName: 'nodejs',
       fontAwesomeClassname: 'fab fa-node',
     },
-    {
-      skillName: 'swift',
-      fontAwesomeClassname: 'fab fa-swift',
-    },
-    {
-      skillName: 'npm',
-      fontAwesomeClassname: 'fab fa-npm',
-    },
+  
+
     {
       skillName: 'sql-database',
       fontAwesomeClassname: 'fas fa-database',
-    },
-    {
-      skillName: 'aws',
-      fontAwesomeClassname: 'fab fa-aws',
-    },
-    {
-      skillName: 'firebase',
-      fontAwesomeClassname: 'fas fa-fire',
     },
     {
       skillName: 'python',
@@ -114,24 +96,27 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: 'Harvard University',
-      logo: require('./assets/images/harvardLogo.png'),
-      subHeader: 'Master of Science in Computer Science',
-      duration: 'September 2017 - April 2019',
-      desc: 'Participated in the research of XXX and published 3 papers.',
+      schoolName: 'Centro Universitário Eurípides de Marília - UNIVEM',
+      logo: require('./assets/images/logo_univem.png'),
+      subHeader: 'Computer Science',
+      duration: 'Janeiro 2019 - Janeiro 2022',
+      desc: 'Participated in the research  and published 3 papers.',
       descBullets: [
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        'Analise das necessidades dos usuários, desenvolvimento de softwares e aplicativos ',
+    
+	' Gerenciamento de  equipes de criação e instalação de  sistemas de computação. Criação de ferramentas de informática,  softwares ',
       ],
     },
     {
-      schoolName: 'Stanford University',
-      logo: require('./assets/images/stanfordLogo.png'),
-      subHeader: 'Bachelor of Science in Computer Science',
-      duration: 'September 2013 - April 2017',
+      schoolName: 'Fundação Getulio Vargas',
+      logo: require('./assets/images/fgv_nacional.png'),
+      subHeader: 'Gestão Estratégica da Tecnologia da Informação',
+      duration: 'Setembro 2019 - Fevereiro 2020',
       desc:
         'Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...',
-      descBullets: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit'],
+      descBullets: [' Entendimento sobre conceitos e técnicas associados à gestão de TI',
+					'Visão da área de TI como estratégica para as empresas',
+					'Conhecimento sobre as principais tendências relacionadas à Tecnologia da Informação.'],
     },
   ],
 };
@@ -146,15 +131,20 @@ const techStack = {
       progressPercentage: '90%', //Insert relative proficiency in percentage
     },
     {
-      Stack: 'Backend',
+      Stack: 'Backend Node/Laravel',
       progressPercentage: '70%',
     },
     {
-      Stack: 'Programming',
+      Stack: 'Programming Web',
       progressPercentage: '60%',
     },
+	
+	{
+      Stack: 'Full stack Protheus(Advpl)',
+      progressPercentage: '100%',
+    },
   ],
-  displayCodersrank: false, // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: true, // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
 // Work experience section
@@ -163,33 +153,35 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: 'Software Engineer',
-      company: 'Facebook',
-      companylogo: require('./assets/images/facebookLogo.png'),
-      date: 'June 2018 – Present',
+      role: 'System Analist',
+      company: 'ZDA ALIMENTOS SA',
+      companylogo: require('./assets/images/zda.jpg'),
+      date: 'Fevereiro 2019 – Present',
       desc:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        'Atividades e Responsabilidades',
       descBullets: [
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        'Programação em ADVPL, desenvolver, testar e implementar, identificar e orientar na solução de problemas, codificar e realizar os testes;',
+        'Gerenciamento de acessos, manutenção, disponibilidade de customizações e workflows responsável pelos módulos, Faturamento, Compras, PCP, SIQUALITY, dentre outros.',
+		'Criação de sistemas externos , como banco de talentos Desenvolvido em Laravel | MySql|Node JS| , Sistema para armazenar futuro candidatos a vagas da empresa http://cv.zdalimentos.com.br/'
       ],
     },
     {
-      role: 'Front-End Developer',
-      company: 'Quora',
-      companylogo: require('./assets/images/quoraLogo.png'),
-      date: 'May 2017 – May 2018',
-      desc:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    },
-    {
       role: 'Software Engineer Intern',
-      company: 'Airbnb',
-      companylogo: require('./assets/images/airbnbLogo.png'),
-      date: 'Jan 2015 – Sep 2015',
+      company: 'JG2 TELECOMUNICAÇOES LTDA.',
+      companylogo: require('./assets/images/net.png'),
+      date: 'Janeiro 2017 – Fevereiro 2019',
       desc:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    },
+        'Atividades e Responsabilidades',
+		 descBullets: [
+        'Implementar o software backend de acordo com as especificações.',
+        'Monitorar e apoiar serviços, no que diz respeito aos recursos de HW e ao consumo de rede.',
+		'Realizar desde a unidade até os testes de integração e carga para garantir que seu software atenda aos requisitos funcionais e não funcionais',
+		'Analisar, isolar e resolver problemas. Aja para evitar problemas,Avaliar e modificar o desempenho do software no ambiente em nuvem',
+		'Impor integração contínua e entrega contínua dos componentes de software'
+
+      ],
+	},
+  
   ],
 };
 
@@ -198,7 +190,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: 'saadpasta', // Change to your github username to view your profile in Contact Section.
+  githubUserName: 'CaioSilveiraTelles', // Change to your github username to view your profile in Contact Section.
   showGithubProfile: 'true', // Set true or false to show Contact profile using Github, defaults to true
   display: true, // Set false to hide this section, defaults to true
 };
@@ -206,34 +198,14 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: 'Big Projects',
-  subtitle: 'SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH',
+  title: 'Projetos',
+  subtitle: 'Sistema De Controle de estoque',
   projects: [
     {
-      image: require('./assets/images/saayaHealthLogo.webp'),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: 'Visit Website',
-          url:
-            'http://saayahealth.com/',
-        },
-        //  you can add extra buttons here.
-      ],
+      image: require('./assets/images/apple-touch-icon.png'),
+      link: 'http://silveiradesenvolvedortestes.epizy.com/index.php/login',
     },
-    {
-      image: require('./assets/images/nextuLogo.webp'),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: 'Visit Website',
-          url:
-            'http://nextu.se/',
-        },
-      ],
-    },
+   
   ],
   display: true, // Set false to hide this section, defaults to true
 };
@@ -297,7 +269,7 @@ const achievementSection = {
       ],
     },
   ],
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -322,23 +294,23 @@ const blogSection = {
         'React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies.',
     },
   ],
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
 
 const talkSection = {
-  title: 'TALKS',
+  title: 'Eventos',
   subtitle: emoji(
-    'I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅'
+    ''
   ),
 
   talks: [
     {
-      title: 'Build Actions For Google Assistant',
-      subtitle: 'Codelab at GDG DevFest Karachi 2019',
-      slides_url: 'https://bit.ly/saadpasta-slides',
-      event_url: 'https://www.facebook.com/events/2339906106275053/',
+      title: 'Criar novas ações para o Google Assistant',
+      subtitle: 'Participação maior evento do google no Brasil',
+      slides_url: 'https://docs.google.com/presentation/d/1PBdtb9zxKKAKF2PYVa8IVxjtdy5XKh05KLOqwzKNFkI/edit',
+      event_url: 'https://devfest.com.br',
     },
   ],
   display: true, // Set false to hide this section, defaults to true
@@ -354,22 +326,18 @@ const podcastSection = {
   podcast: [
     'https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo',
   ],
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
-  title: emoji('Contact Me ☎️'),
-  subtitle:
-    'Discuss a project or just want to say hi? My Inbox is open for all.',
-  number: '+92-3243454077',
-  emailAddress: 'saadpasta70@gmail.com',
+ 
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: 'twitter', //Replace "twitter" with your twitter username without @
-  display: true, // Set true to display this section, defaults to false
+  userName: 'silveira_telles', //Replace "twitter" with your twitter username without @
+  display: false, // Set true to display this section, defaults to false
 };
 
 export {

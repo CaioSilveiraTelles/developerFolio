@@ -39,9 +39,9 @@ export default function Greeting() {
               </p>
               <SocialMedia />
               <div className="button-greeting-div">
-                <Button text="Contact me" href="#contact" />
+                <Button text="Entrar em contato" href="#contact" />
                 <Button
-                  text="See my resume"
+                  text="Download Curriculo"
                   newTab={true}
                   href={greeting.resumeLink}
                 />
